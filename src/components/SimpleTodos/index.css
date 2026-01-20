@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.Container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+}
+
+.cardContainer {
+  max-height: auto;
+  width: 85vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 35px;
+  color: #ff8542;
+  font-family: 'roboto';
+}
+
+.listContainer {
+  list-style: none;
+}

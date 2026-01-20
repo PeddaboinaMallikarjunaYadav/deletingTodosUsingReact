@@ -1,0 +1,22 @@
+.profileContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: 'roboto';
+  color: #000000;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+}
